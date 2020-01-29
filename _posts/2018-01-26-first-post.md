@@ -14,13 +14,17 @@ Communication vs communications
 
 통신의 3가지 구성요소 
 -transmitter (TX,Tx)
+
 -channel
+
 -receiver (RX,Rx)
+
 -cf.transceiver=Tx+Rx
 
 etc... 통신의 5가지 요소 source,Encoder,channel,Decoder,sink
 
-channel ==> 가장 중요한 것 여기에 따른 송 수신 기능 변경이된다.\
+channel ==> 가장 중요한 것 여기에 따른 송 수신 기능 변경이된다.
+
             수중통신, 무선통신, 광통신 etc....
             "주어지는 것"
 

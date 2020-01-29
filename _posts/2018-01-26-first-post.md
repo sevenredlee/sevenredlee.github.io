@@ -1,21 +1,38 @@
 ---
-title: "Welcome to Jekyll!"
+title: "통신과 방송"
 date: 2020-01-29 08:26:28 -0400
-categories: jekyll update
+categories: Communication_engineering
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Communication vs communications
+-방송 통신학
+-통신공학
+통신 : 정확한 정보전달을 목적으로 함
 
-Jekyll also offers powerful support for code snippets:
+통신 : 쌍방향 정보 전달 ( 핸드폰, 컴퓨터)
+방송 : 단방향 정보 전달( TV, 라디오)
 
-​```python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-​```
+통신의 3가지 구성요소 
+-transmitter (TX,Tx)
+-channel
+-receiver (RX,Rx)
+-cf.transceiver=Tx+Rx
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+etc... 통신의 5가지 요소 source,Encoder,channel,Decoder,sink
+
+channel ==> 가장 중요한 것 여기에 따른 송 수신 기능 변경이됨
+            수중통신, 무선통신, 광통신 etc....
+            "주어지는 것"
+
+channel에 carrier에 싫어서 보냄
+1. c=fλ 주파수가 낮으면 파장이 커진다 이경우 매우 긴 안테나가 필요하게 된다.
+2. 대기중에서는 사람의 음역대(100~10,000Hz) 보다 고주파에서 멀리 전파가 통한다. (주파수 높으면 직진성 낮으면 회절성이 강해진다.)r
+
+Carrier
+Acos(2*pi*f*t+Θ)
+==>A 변경 AM
+==>f 변경 FM
+==>Θ 변경 PM
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

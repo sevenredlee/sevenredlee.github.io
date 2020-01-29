@@ -1,5 +1,5 @@
 ---
-title: "통신과 방송"
+title: "통신1"
 date: 2020-01-29 08:26:28 -0400
 categories: Communication_engineering
 ---
